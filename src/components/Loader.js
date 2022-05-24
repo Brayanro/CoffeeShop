@@ -10,8 +10,8 @@ window.onload = () => {
 
 const Loader = () => {
     return (
-        <div className="load" id="load">
-            <img src={gif} alt="Gif" className="load__gif" />
+        <div className='load' id='load'>
+            <img src={gif} alt='Gif' className='load__gif' />
         </div>
     )
 }
