@@ -147,12 +147,12 @@ button {
 }
 
 .btn__login {
-    background-color: var(--first-color)!important;
-    color: #fff!important;
-    border-radius: 0.25rem!important;
+    background-color: var(--first-color) !important;
+    color: #fff !important;
+    border-radius: 0.25rem !important;
 }
 
-.btn__login:hover{
+.btn__login:hover {
     background-color: var(--first-color-alt);
 }
 
@@ -270,11 +270,6 @@ button {
 /* Breakpoints */
 /* For small devices */
 @media screen and (max-width: 320px) {
-    .container {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
     .quality__img-small {
         transform: translateX(-6rem);
     }

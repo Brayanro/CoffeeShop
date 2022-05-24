@@ -3,7 +3,7 @@ import scroll from '../images/scroll.png';
 
 const Home = () => {
     return (
-        <section className='home grid' id='home'>
+        <section className='home grid'>
             <div className='home__container'>
                 <div className='home__content container'>
                     <h1 className='home__title'>
