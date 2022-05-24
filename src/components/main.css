@@ -133,8 +133,33 @@ button {
     object-fit: contain;
 }
 
-.nav__link:hover {
+.nav-link {
+    color: var(--text-color-light) !important;
+}
+
+.nav__link-active {
+    display: block;
+    padding: 0.5rem 0.5rem;
+
     color: #fff;
+}
+
+.nav__link-active:hover {
+    color: #fff;
+}
+
+.btn__login {
+    background-color: var(--first-color)!important;
+    color: #fff!important;
+    border-radius: 0.25rem!important;
+}
+
+.btn__login:hover{
+    background-color: var(--first-color-alt);
+}
+
+.navbar__offcanvas {
+    background: var(--black-color);
 }
 
 /* Home */
@@ -317,13 +342,9 @@ button {
 }
 
 @media screen and (min-width: 1024px) {
-    .header {
-        background: transparent;
-    }
-
-    .nav-link {
+    /* .nav-link {
         color: #fff !important;
-    }
+    } */
 }
 
 /* For large devices */
