@@ -1,12 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
 import Loader from './components/Loader';
+import Navbar from './components/Navbar';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Cart from './pages/Cart';
 import Contact from './pages/Contact';
+import Home from './pages/Home';
 import Login from './pages/Login';
 import Products from './pages/Products';
 
@@ -14,7 +13,7 @@ function App() {
   return (
     <>
       <Loader />
-      <Header />
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

@@ -7,35 +7,33 @@ const Home = () => {
             <div className='home__container'>
                 <div className='home__content container'>
                     <h1 className='home__title'>
-                        Choose Your Favorite Coffee And Enjoy<span>.</span>
+                        Elige tu café favorito y disfruta<span>.</span>
                     </h1>
                     <p className='home__description'>
-                        Buy the best and delicious coffees.
+                    Compra los mejores y deliciosos cafés.
                     </p>
                     <div className='home__data'>
                         <div className='home_data-group'>
-                            <h2 className='home__data-number'>120K</h2>
-                            <h3 className='home__data-title'>Testimonials</h3>
+                            <h2 className='home__data-number'>120+</h2>
+                            <h3 className='home__data-title'>Testimonios</h3>
                             <p className='home__data-description'>
-                                Testimonials from various customers who trust us.
+                            Testimonios de varios clientes que confían en nosotros.
                             </p>
                         </div>
                         <div className='home_data-group'>
-                            <h2 className='home__data-number'>340+
-                            </h2>
-                            <h3 className='home__data-title'>Exclusive Product
-                            </h3>
+                            <h2 className='home__data-number'>340+</h2>
+                            <h3 className='home__data-title'>Productos Exclusivos</h3>
                             <p className='home__data-description'>
-                                Premium preparation with quality ingredients.
+                            Elaboración premium con ingredientes de calidad.
                             </p>
                         </div>
                     </div>
                     <a href='#specialty'>
-                        <img src={scroll} alt='' className='home__scroll'/>
+                        <img src={scroll} alt='Scroll' className='home__scroll' />
                     </a>
                 </div>
             </div>
-            <img src={home} alt='' className='home__img'/>
+            <img src={home} alt='' className='home__img' />
         </section>
     )
 }
